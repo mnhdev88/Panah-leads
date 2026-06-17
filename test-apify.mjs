@@ -1,4 +1,4 @@
-const API_KEY = process.env.APIFY_API_KEY; // set APIFY_API_KEY in your environment
+const API_KEY = process.env.APIFY_API_TOKEN; // set APIFY_API_TOKEN in your environment
 
 async function testApify() {
   console.log("Testing Apify connection...");
